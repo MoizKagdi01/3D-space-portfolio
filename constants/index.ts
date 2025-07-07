@@ -218,21 +218,21 @@ export const PROJECTS = [
     description:
       'Dive into KIRA - Online Code Editor and Compiler, a powerful web application designed for real-time code editing and execution. Built with the MERN stack, KIRA supports multiple languages, user authentication, project management, showcasing both technical depth and seamless user experience.',
     image: "/projects/project-1.png",
-    link: "https://example.com",
+    link: "https://github.com/MoizKagdi01/KIRA---Online-Code-Editor-And-Compiler/tree/main",
   },
   {
     title: "Personal 3D Space-Themed Portfolio",
     description:
       'Step into my Personal 3D Space-Themed Portfolio, an immersive experience that reflects my creativity and technical expertise. Built with Next.js, Three.js, and Framer Motion, this interactive site showcases my skills, personal projects, and a seamless contact form—merging modern design with cosmic inspiration.',
     image: "/projects/project-2.png",
-    link: "https://example.com",
+    link: "https://3-d-space-portfolio.vercel.app/",
   },
   {
     title: "Vidora - Next-Gen Video Sharing Platform",
     description:
       'Explore Vidora, a next-gen video sharing platform crafted to elevate content discovery and creation. With features like AI-generated titles, descriptions, and thumbnails, personal playlists, dynamic grid views, multi-theme support, and an advanced UI—Vidora empowers creators and viewers with a smarter, more immersive experience.',
     image: "/projects/project-3.png",
-    link: "https://example.com",
+    link: "https://vidora-video-sharing-platform.vercel.app/",
   },
 ] as const;
 
@@ -248,12 +248,12 @@ export const FOOTER_DATA = [
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/MoizKagdi01",
       },
       {
         name: "Discord",
         icon: RxDiscordLogo,
-        link: "https://discord.com",
+        link: "https://discord.gg/tuJgCWa4",
       },
     ],
   },
@@ -263,17 +263,12 @@ export const FOOTER_DATA = [
       {
         name: "Instagram",
         icon: RxInstagramLogo,
-        link: "https://instagram.com",
-      },
-      {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://twitter.com",
+        link: "https://www.instagram.com/moiz.kagdi74",
       },
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        link: "https://www.linkedin.com/in/moiz-kagdi-785bb0330",
       },
     ],
   },
@@ -294,6 +289,3 @@ export const NAV_LINKS = [
   },
 ] as const;
 
-export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
-};
