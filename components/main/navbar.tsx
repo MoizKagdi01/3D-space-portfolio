@@ -25,7 +25,7 @@ export const Navbar = () => {
             draggable={false}
             className="cursor-pointer"
           />
-          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">John Doe</div>
+          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">Moiz Kagdi</div>
         </Link>
 
         {/* Web Navbar */}
@@ -35,7 +35,7 @@ export const Navbar = () => {
               <Link
                 key={link.title}
                 href={link.link}
-                className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
+                className="cursor-pointer hover:text-[rgb(189,171,240)] transition"
               >
                 {link.title}
               </Link>
@@ -43,12 +43,12 @@ export const Navbar = () => {
 
             {/* Source Code */}
             <Link
-              href={LINKS.sourceCode}
+              href="https://docs.google.com/document/d/1i9rgS0jKoOXDfzp1djIBlB75_pAikRkC/edit?usp=sharing&ouid=116555329907577060843&rtpof=true&sd=true"
               target="_blank"
               rel="noreferrer noopener"
-              className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
+              className="cursor-pointer hover:text-[rgb(189,171,240)] transition"
             >
-              Source Code
+              Resume
             </Link>
           </div>
         </div>

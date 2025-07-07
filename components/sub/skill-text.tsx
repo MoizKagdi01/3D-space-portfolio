@@ -18,7 +18,7 @@ export const SkillText = () => {
       >
         <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
         <h1 className="Welcome-text text-[13px]">
-          Think better with Next.js 14
+          Think better with Next.js
         </h1>
       </motion.div>
 
@@ -31,7 +31,7 @@ export const SkillText = () => {
 
       <motion.div
         variants={slideInFromRight(0.5)}
-        className="cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center"
+        className="text-[20px] text-gray-200 mb-10 mt-[10px] text-center"
       >
         Never miss a task, deadline or idea.
       </motion.div>

@@ -2,20 +2,20 @@
 
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 import {
   slideInFromLeft,
   slideInFromRight,
   slideInFromTop,
 } from "@/lib/motion";
+import { ThreeDComponent } from "./ThreeDComponent";
 
 export const HeroContent = () => {
   return (
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+      className="flex flex-row items-center justify-center px-20 mt-20 h-full w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
@@ -45,8 +45,8 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          I&apos;m a Full Stack Web Developer with experience in Website designing & development.
+           Check out my projects and skills.
         </motion.p>
 
         <motion.a
@@ -59,16 +59,9 @@ export const HeroContent = () => {
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center"
+        className="w-full h-full flex aspect-square sm:hidden md:flex justify-center items-center"
       >
-        <Image
-          src="/hero-bg.svg"
-          alt="work icons"
-          height={650}
-          width={650}
-          draggable={false}
-          className="select-none"
-        />
+        <ThreeDComponent />
       </motion.div>
     </motion.div>
   );

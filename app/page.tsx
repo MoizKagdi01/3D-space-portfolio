@@ -1,7 +1,8 @@
-import { Encryption } from "@/components/main/encryption";
+import Contact from "@/components/main/Contact";
 import { Hero } from "@/components/main/hero";
 import { Projects } from "@/components/main/projects";
 import { Skills } from "@/components/main/skills";
+import SplashCursor from "@/components/sub/Ribbons";
 
 export default function Home() {
   return (
@@ -9,8 +10,9 @@ export default function Home() {
       <div className="flex flex-col gap-20">
         <Hero />
         <Skills />
-        <Encryption />
         <Projects />
+        <Contact />
+        <SplashCursor  />
       </div>
     </main>
   );

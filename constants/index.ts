@@ -45,12 +45,6 @@ export const SKILL_DATA = [
     height: 80,
   },
   {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "TypeScript",
     image: "ts.png",
     width: 80,
@@ -65,12 +59,6 @@ export const SKILL_DATA = [
   {
     skill_name: "Framer Motion",
     image: "framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Stripe",
-    image: "stripe.png",
     width: 80,
     height: 80,
   },
@@ -150,12 +138,6 @@ export const FRONTEND_SKILL = [
     height: 80,
   },
   {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "TypeScript",
     image: "ts.png",
     width: 80,
@@ -189,12 +171,6 @@ export const BACKEND_SKILL = [
     height: 40,
   },
   {
-    skill_name: "Firebase",
-    image: "firebase.png",
-    width: 55,
-    height: 55,
-  },
-  {
     skill_name: "PostgreSQL",
     image: "postgresql.png",
     width: 70,
@@ -205,18 +181,6 @@ export const BACKEND_SKILL = [
     image: "mysql.png",
     width: 70,
     height: 70,
-  },
-  {
-    skill_name: "Prisma",
-    image: "prisma.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Graphql",
-    image: "graphql.png",
-    width: 80,
-    height: 80,
   },
 ] as const;
 
@@ -248,34 +212,25 @@ export const FULLSTACK_SKILL = [
   },
 ] as const;
 
-export const OTHER_SKILL = [
-  {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
-  },
-] as const;
-
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "KIRA - Online Code Editor And Compiler",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+      'Dive into KIRA - Online Code Editor and Compiler, a powerful web application designed for real-time code editing and execution. Built with the MERN stack, KIRA supports multiple languages, user authentication, project management, showcasing both technical depth and seamless user experience.',
     image: "/projects/project-1.png",
     link: "https://example.com",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Personal 3D Space-Themed Portfolio",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
+      'Step into my Personal 3D Space-Themed Portfolio, an immersive experience that reflects my creativity and technical expertise. Built with Next.js, Three.js, and Framer Motion, this interactive site showcases my skills, personal projects, and a seamless contact form—merging modern design with cosmic inspiration.',
     image: "/projects/project-2.png",
     link: "https://example.com",
   },
   {
-    title: "Space Themed Website",
+    title: "Vidora - Next-Gen Video Sharing Platform",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      'Explore Vidora, a next-gen video sharing platform crafted to elevate content discovery and creation. With features like AI-generated titles, descriptions, and thumbnails, personal playlists, dynamic grid views, multi-theme support, and an advanced UI—Vidora empowers creators and viewers with a smarter, more immersive experience.',
     image: "/projects/project-3.png",
     link: "https://example.com",
   },
@@ -288,7 +243,7 @@ export const FOOTER_DATA = [
       {
         name: "YouTube",
         icon: FaYoutube,
-        link: "https://youtube.com",
+        link: "https://youtube.com/@M43Z_786",
       },
       {
         name: "GitHub",
@@ -319,26 +274,6 @@ export const FOOTER_DATA = [
         name: "Linkedin",
         icon: RxLinkedinLogo,
         link: "https://linkedin.com",
-      },
-    ],
-  },
-  {
-    title: "About",
-    data: [
-      {
-        name: "Become Sponsor",
-        icon: null,
-        link: "https://youtube.com",
-      },
-      {
-        name: "Learning about me",
-        icon: null,
-        link: "https://example.com",
-      },
-      {
-        name: "Contact Me",
-        icon: null,
-        link: "mailto:contact@example.com",
       },
     ],
   },
