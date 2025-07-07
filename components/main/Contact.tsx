@@ -32,8 +32,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_fwwjiai",
-        "template_adq2uvg",
+        process.env.EMAILJS_SERVICE!,
+        process.env.EMAILJS_TEMPLATE!,
         {
           from_name: form.name,
           to_name: "Moiz Kagdi",
@@ -41,7 +41,7 @@ const Contact = () => {
           to_email: "moizkagdi03@gmail.com",
           message: form.message,
         },
-        "yMzmQLzyK-yg7qSLT"
+        process.env.EMAILJS_USER!
       )
       .then(
         () => {
