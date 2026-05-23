@@ -41,9 +41,9 @@ export const Navbar = () => {
               </Link>
             ))}
 
-            {/* Source Code */}
+            {/* Resume */}
             <Link
-              href="https://docs.google.com/document/d/1i9rgS0jKoOXDfzp1djIBlB75_pAikRkC/edit?usp=sharing&ouid=116555329907577060843&rtpof=true&sd=true"
+              href="https://docs.google.com/document/d/1FUSpwLb0zmQMYOxk4pNN1b6qofRxP1_p/edit?usp=drivesdk&ouid=116555329907577060843&rtpof=true&sd=true"
               target="_blank"
               rel="noreferrer noopener"
               className="cursor-pointer hover:text-[rgb(189,171,240)] transition"
